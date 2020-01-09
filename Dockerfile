@@ -1,7 +1,7 @@
-FROM alpine:3.11
+FROM alpine:latest
 
 RUN apk upgrade --update
-RUN apk add imagemagick=7.0.9.7-r0
+RUN apk add imagemagick
 
 WORKDIR /workdir
 
